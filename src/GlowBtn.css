@@ -1,0 +1,40 @@
+.glow:hover{
+    background:linear-gradient(90deg,#0aaffc,#fa3ca8,#ffeb36,#0aaffc);
+    background-size:400%;
+  }
+
+
+  
+  .glow::before{
+    content:'';
+    position:absolute;
+    background: inherit;
+    top:-5px;
+    right:-5px;
+    bottom:-5px;
+    left:-5px;
+    border-radius:50px;
+    filter:blur(20px);
+    opacity:0;
+    transition:opacity .5s;
+  }
+  
+  .glow:hover::before{
+    opacity:1;
+    z-index:-1;
+  }
+  
+  .glow:hover{
+    z-index:1;
+    animation:animate 7s linear infinite;
+  }
+  
+  @keyframes animate{
+    0%{
+      background-position: 0%;
+    }
+  
+    100%{
+      background-position: 400%;
+    }
+  }

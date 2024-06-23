@@ -51,9 +51,9 @@ const Tagline = () => {
     })
   })
   return (
-    <div className='py-20 -mt-[20vh] md:-mt-0'>
+    <div className='py-20 -mt-[30vh] md:-mt-0'>
 
-    <div className='images flex lg:justify-around py-0  md:scale-100 scale-50 lg:gap-0 gap-10 justify-center'>
+    <div className='images flex lg:justify-around py-0  md:scale-100 scale-[45%] lg:gap-0 gap-10 justify-center'>
     <img className=" leftSide h-[20vh]" src={excel} alt='' />
     <img className=" leftSide h-[20vh]" src={ppt} alt='' />
     <img className=" rightSide h-[20vh]" src={team} alt='' />
@@ -61,7 +61,7 @@ const Tagline = () => {
 
     </div>
 
-    <div className=' w-[100%] h-screen text-white font-semibold md:text-[130px] text-[10vh] text-center  items-center -mt-2'>
+    <div className=' w-[100%] h-screen text-white font-semibold md:text-[130px] text-[9vh] text-center  items-center -mt-2'>
       <h1 className=''>Tech that Moves You Forward</h1>
       <div className='arrow md:-mt-20 -mt-[1vh] #04E3FF opacity-0'>
     <i className="ri-arrow-down-wide-line font-thin"></i>

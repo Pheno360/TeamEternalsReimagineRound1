@@ -48,7 +48,7 @@ const Business = () => {
         <div className='business-text font-semibold p-8'>
         <h1 className=' font-bold text-xl ' >Get Microsoft Teams for free</h1>
         <p className='mt-[2vh] font-medium' >Online meetings, chat and shared cloud storage - all in one place</p>
-        <button className='rounded-md mt-[6vh] bg-[#1194ffbe] p-2'>Sign up for free</button>
+        <button className='rounded-md md:mt-[6vh] mt-[2vh] bg-[#1194ffbe] p-2'>Sign up for free</button>
         </div>
       </div>
 
@@ -70,19 +70,19 @@ const Business = () => {
         <div className='business-text font-semibold p-8 '>
         <h1 className=' font-bold text-xl ' >Copilot for Microsoft 365</h1>
         <p className='mt-[2vh] font-medium' >Save time and focus on the things that matter most with AI in Microsoft 365 for business.</p>
-        <button className=' rounded-md mt-[3vh] bg-[#1194ffbe] p-2' >Learn more</button>
+        <button className=' rounded-md md:mt-[3vh] mt-[2vh] bg-[#1194ffbe] p-2' >Learn more</button>
         </div>
       </div>
 
             </div>
          
-            <div className='py-[8vw] px-[3vh]  flex gap-[2vw] text-[1.5em] text-white '>
-              <h1 className='font-semibold mr-[2vh]'>Follow Microsoft</h1>
+            <div className='py-[8vw] px-[3vh]  flex gap-[2vw] text-[1.5em] text-white md:scale-100 scale-75'>
+              <h1 className='font-semibold md:mr-[2vh] mr-[0vh] '>Follow Microsoft</h1>
              
-              <p className='flex gap-[4vh] text-[1.5em] -mt-[1.5vh]'> 
-              <i className="ri-facebook-circle-fill transform transition-transform duration-500 hover:scale-110 hover:bg-blue-500 rounded-xl w-[3vw] flex justify-center"></i>
-              <i className="ri-twitter-x-fill transform transition-transform duration-500 hover:scale-110 hover:bg-black rounded-xl w-[3vw] flex justify-center"></i>
-              <i className="ri-youtube-fill transform transition-transform duration-500 hover:scale-110 hover:bg-red-500 rounded-xl w-[3vw] flex justify-center"></i>
+              <p className='flex md:gap-[4vh] gap-4 text-[1.5em] -mt-[1.5vh] md:px-0 px-2'> 
+              <i className="ri-facebook-circle-fill transform transition-transform duration-500 hover:scale-110 hover:bg-blue-500 rounded-xl md:w-[3vw] w-[8vw] flex justify-center"></i>
+              <i className="ri-twitter-x-fill transform transition-transform duration-500 hover:scale-110 hover:bg-black rounded-xl md:w-[3vw] w-[8vw] flex justify-center"></i>
+              <i className="ri-youtube-fill transform transition-transform duration-500 hover:scale-110 hover:bg-red-500 rounded-xl md:w-[3vw] w-[8vw] flex justify-center"></i>
               
                </p>
                

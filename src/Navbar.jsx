@@ -100,7 +100,7 @@ const Cursor=({position})=>{
 const NavMenu=()=>{
 
   return(
-  <div className=' flex gap-4 space-x-4 items-center text-[#04E3FF] font-semibold cursor-pointer text' >
+  <div className=' flex md:gap-4 gap-2 space-x-4 items-center text-[#04E3FF] font-semibold cursor-pointer text' >
   <h1 className='menus tab hover:border-b-2 border-[#04E3FF]'>All Microsoft</h1>
   <h1 className='menus tab hover:border-b-2 border-[#04E3FF]'>Search <span><i class="ri-search-line"></i></span></h1>
   <h1 className='menus tab hover:border-b-2 border-[#04E3FF] '>Cart <span><i class="ri-shopping-cart-line"></i></span></h1>

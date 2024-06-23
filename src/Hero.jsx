@@ -94,7 +94,7 @@ const ImageSlider = () => {
 
   return (
     
-    <div className="slider relative md:w-[45%] sm:w-[75%]  mx-auto overflow-hidden rounded-lg py-[10vh] ">
+    <div className="slider relative md:w-[45%] w-[100%]  mx-auto overflow-hidden rounded-lg py-[10vh] ">
       <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {images.map((image, index) => (
           <div className="min-w-full" key={index}>

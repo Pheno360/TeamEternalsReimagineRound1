@@ -55,7 +55,7 @@ useGSAP(()=>{
       
     </div>
     
-      <div className='serviceImg w-[30%] px-6 md:scale-100 scale-75 lg:py-0 md:py-8 py-8 '>
+      <div className='serviceImg md:w-[30%] w-[40%] md:px-6 px-2 md:scale-100 scale-75 lg:py-0 md:py-8 py-8 '>
       <img src='https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/RF-Microsoft-M365-Sizzle_tbmnl_en-us?scl=1' alt='' />
       </div>
     </div>
@@ -67,7 +67,7 @@ useGSAP(()=>{
       <button className='rounded-sm md:text-[2vh] text-[1vh] font-semibold  p-1.5 mt-3 bg-[#1194ffbe]'>Show Xbox Series X</button>
     </div>
 
-      <div className='serviceImg w-[30%] px-6 md:scale-100 scale-75 lg:py-0 md:py-8 py-8 '>
+      <div className='serviceImg md:w-[30%] w-[40%] md:px-6 px-2 md:scale-100 scale-75 lg:py-0 md:py-8 py-8 '>
       <img src='https://assets.xboxservices.com/assets/5a/f1/5af153cc-bae1-4ff7-863f-942fddde8316.jpg?n=XSX_Hero_1084_Backward-Compatibility_1920x1250.jpg' alt='' />
       </div>
     </div>
@@ -80,7 +80,7 @@ useGSAP(()=>{
       
     </div>
 
-      <div className='serviceImg w-[30%] px-6 md:scale-100 scale-75 lg:py-0 md:py-8 py-8 ' >
+      <div className='serviceImg md:w-[30%] w-[40%] md:px-6 px-2 md:scale-100 scale-75 lg:py-0 md:py-8 py-8 ' >
       <img src='https://news.microsoft.com/wp-content/uploads/prod/sites/612/2021/06/Hero-Bloom-Logo.jpg' alt='' />
       </div>
     </div>
@@ -92,7 +92,7 @@ useGSAP(()=>{
       <button className=' rounded-sm md:text-[2vh] text-[1vh] p-1.5 mt-3 bg-[#1194ffbe]'>Learn more</button>
     </div>
 
-      <div className='serviceImg w-[30%] px-6 md:scale-100 scale-75 lg:py-0 md:py-8 py-8  '>
+      <div className='serviceImg md:w-[30%] w-[40%] md:px-6 px-2 md:scale-100 scale-75 lg:py-0 md:py-8 py-8  '>
       <img src='https://media.wired.com/photos/664ba96e9a44445cea98be11/4:3/w_1424,h_1068,c_limit/Surface-Laptop-and-Surface-Pro-1900x1069.jpg' alt='' />
       </div>
     </div>

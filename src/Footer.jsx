@@ -20,10 +20,10 @@ const Footer = () => {
   })
 
   return (
-    <div className='footer h-[60%] w-full md:px-[4vh] px-2 text-[#ffffffd0]  bg-sky-700 md:text-[0.9em] text-[0.6em]  py-[2vh] '>
+    <div className='footer h-[60%] w-full md:px-[4vh] px-2 text-[#ffffffd0]  bg-sky-700 md:text-[0.9em] text-[1.3vh]  py-[2vh] '>
     <div className=' py-[6vh] flex lg:flex-nowrap flex-wrap gap-[4vw] '>
 
-<div className='Microsoft-image md:w-[30vh] w-[15vh] mt-[5vh]'>
+<div className='Microsoft-image md:w-[30vh] w-[12vh] mt-[5vh]'>
       <img src={mslogo} />
       </div>
       <div className='flex flex-col gap-[1vw]'>

@@ -76,7 +76,7 @@ const Business = () => {
 
             </div>
          
-            <div className='py-[8vw] px-[3vh]  flex gap-[2vw] text-[1.5em] text-white md:scale-100 scale-75'>
+            <div className='py-[8vw] md:px-[3vh] px-[0] flex gap-[2vw] text-[1.5em] text-white md:scale-100 scale-[70%]'>
               <h1 className='font-semibold md:mr-[2vh] mr-[0vh] '>Follow Microsoft</h1>
              
               <p className='flex md:gap-[4vh] gap-4 text-[1.5em] -mt-[1.5vh] md:px-0 px-2'> 

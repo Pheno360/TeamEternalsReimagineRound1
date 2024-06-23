@@ -37,7 +37,7 @@ const Footer = () => {
         <p>Windows 11 apps</p>
       </div>
 
-      <div className='flex flex-col gap-[1vw] md:ml-0 ml-6' >
+      <div className='flex flex-col gap-[1vw] md:ml-0 ml-2' >
         <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Mircosoft Store</h1>
         <p>Account profile</p>
         <p>Download Center</p>
@@ -46,7 +46,7 @@ const Footer = () => {
         <p>Order tracking</p>
       </div>
 
-      <div className='flex flex-col gap-[1vw] md:px-0 px-10'>
+      <div className='flex flex-col gap-[1vw] md:px-0 px-4'>
         <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Education</h1>
         <p>Microsoft in education</p>
         <p>Devices for education</p>
@@ -70,7 +70,7 @@ const Footer = () => {
         <p>Microsoft Teams</p>
       </div>
 
-      <div className='flex flex-col gap-[1vw] md:px-0 px-10'>
+      <div className='flex flex-col gap-[1vw] md:px-0 px-4'>
         <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Developer & IT</h1>
         <p>Developer Center</p>
         <p>Documentation</p>
@@ -101,7 +101,7 @@ const Footer = () => {
       <h1>Your Privacy Choices</h1>
       <h1>Consumer Health Privacy</h1>
 
-      <div className=' flex justify-center gap-[2vw] w-[100%] md:text-[2vh] text-[1.2vh] ' >
+      <div className=' flex justify-center gap-[2vw] w-[100%] md:text-[2vh] text-[1vh] ' >
       <h1 className='font-semibold'>Contact Microsoft</h1>
       <h1 className='font-semibold'>Privacy</h1>
       <h1 className='font-semibold'>Terms of use</h1>

@@ -20,14 +20,14 @@ const Footer = () => {
   })
 
   return (
-    <div className='footer h-[60%] w-full md:px-[4vh] px-2 text-[#ffffffd0]  bg-sky-700 md:text-[0.9em] text-[0.7em]  py-[2vh] '>
+    <div className='footer h-[60%] w-full md:px-[4vh] px-2 text-[#ffffffd0]  bg-sky-700 md:text-[0.9em] text-[0.6em]  py-[2vh] '>
     <div className=' py-[6vh] flex lg:flex-nowrap flex-wrap gap-[4vw] '>
 
-<div className='Microsoft-image md:w-[30vh] w-[20vh] mt-[5vh]'>
+<div className='Microsoft-image md:w-[30vh] w-[15vh] mt-[5vh]'>
       <img src={mslogo} />
       </div>
       <div className='flex flex-col gap-[1vw]'>
-        <h1 className='md:text-[1.1vw] text-[3.4vw] font-semibold'>What's new</h1>
+        <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>What's new</h1>
         <p>Games</p>
         <p>Surface Pro 9</p>
         <p>Surface Laptop5</p>
@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col gap-[1vw] md:ml-0 ml-6' >
-        <h1 className='md:text-[1.1vw] text-[3.4vw] font-semibold'>Mircosoft Store</h1>
+        <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Mircosoft Store</h1>
         <p>Account profile</p>
         <p>Download Center</p>
         <p>Microsoft Store Support</p>
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col gap-[1vw] md:px-0 px-10'>
-        <h1 className='md:text-[1.1vw] text-[3.4vw] font-semibold'>Education</h1>
+        <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Education</h1>
         <p>Microsoft in education</p>
         <p>Devices for education</p>
         <p>Microsoft Teams for Education</p>
@@ -59,7 +59,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col gap-[1vw] '>
-        <h1 className='md:text-[1.1vw] text-[3.4vw] font-semibold'>Business</h1>
+        <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Business</h1>
         <p>Microsoft Cloud</p>
         <p>Microsoft Security</p>
         <p>Azure</p>
@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col gap-[1vw] md:px-0 px-10'>
-        <h1 className='md:text-[1.1vw] text-[3.4vw] font-semibold'>Developer & IT</h1>
+        <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Developer & IT</h1>
         <p>Developer Center</p>
         <p>Documentation</p>
         <p>Microsoft Learn</p>
@@ -83,7 +83,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col gap-[1vw] md:ml-0 ml-10'>
-        <h1 className='md:text-[1.1vw] text-[3vw] font-semibold'>Company</h1>
+        <h1 className='md:text-[1.1vw] text-[2.5vw] font-semibold'>Company</h1>
         <p>Careers</p>
         <p>About Microsoft</p>
         <p>Company news</p>
@@ -101,7 +101,7 @@ const Footer = () => {
       <h1>Your Privacy Choices</h1>
       <h1>Consumer Health Privacy</h1>
 
-      <div className=' flex justify-center gap-[2vw] w-[100%] md:text-[2vh] text-[1.4vh] ' >
+      <div className=' flex justify-center gap-[2vw] w-[100%] md:text-[2vh] text-[1.2vh] ' >
       <h1 className='font-semibold'>Contact Microsoft</h1>
       <h1 className='font-semibold'>Privacy</h1>
       <h1 className='font-semibold'>Terms of use</h1>

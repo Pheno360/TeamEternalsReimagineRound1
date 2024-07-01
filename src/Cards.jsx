@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react';
 
 const Cards = () => {
 
+
   gsap.registerPlugin(ScrollTrigger);
 
 useGSAP(()=>{
